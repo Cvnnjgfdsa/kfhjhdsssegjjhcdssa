@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Card &ndash; the better way to collect credit cards</title>
+    <meta name="viewport" content="initial-scale=1">
+    <!-- CSS is included through the card.js script -->
+</head>
+<body>
+<html> <body> <div class='card-wrapper'></div> <!-- CSS is included via this JavaScript file --> <script src="/path/to/card.js"></script> <form action="/action_page.php">
+ <form> <input type="text" name="number"> <input type="text" name="first-name"/> <input type="text" name="last-name"/> <input type="text" name="expiry"/> <input type="text" name="cvc"/>.
+<input type="submit"
+value="Continue to checkout" class="btn">
+</form> <script> var card = new Card({ form: 'form', container: '.card-wrapper', placeholders: { number: '**** **** **** ****', name: 'Arya Stark', expiry: '**/****', cvc: '***' } }); </script> </script> </body> </html>
